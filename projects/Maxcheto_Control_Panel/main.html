@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxcheto Business</title>
+  <link rel="icon" type="image/x-icon" href="ico.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('2c97759e-ad25-4b4d-b3e5-f75b748c34e6.jpg') no-repeat center center fixed;
+      background-size: cover
+    }
+
+    .navbar {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .company-logo {
+      width: 100px;
+      height: 40px;
+      margin-right: 150px;
+    }
+
+    .company-name {
+      margin-right: auto;
+      font-weight: bold;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .user-name {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .logout-btn {
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-size: 14px;
+      color: #333;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <img src="logo.jpeg" alt="Logo de la empresa" class="company-logo">
+  <span class="company-name">Maxcheto Business</span>
+  <div class="user-info">
+    <img src="ico.png" alt="Logo del usuario" class="user-logo">
+    <span class="user-name">Maxchetoツ</span>
+  </div>
+  <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+</div>
+
+<script>
+  function logout() {
+    // Redirigir a la página de inicio
+    window.location.href = "access.html";
+  }
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: -100;
+      left: 0;
+      background-color: #ffffff;
+      padding-top: 15px;
+    }
+
+    .sidebar a {
+      padding: 15px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #000000;
+      display: block;
+    }
+
+    .sidebar a:hover {
+      background-color: #555;
+    }
+
+    .content {
+      margin-left: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="section">
+    <p>Sección Supervisor</p>
+    <a href="main.html">-Panel de Control</a>
+  </div>
+  <div class="section">
+    <p>Sección Administrador</p>
+    <a href="dispositivos.html">-Dispositivos</a>
+    <a href="logs_actividad.html">-Logs y Actividad</a>
+    <a href="soporte.html">-Soporte</a>
+  </div>
+</div>
+</body>
+</html>

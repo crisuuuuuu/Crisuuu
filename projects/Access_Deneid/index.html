@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Denegado</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(228, 220, 209);
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: red;
+        }
+        p {
+            color: black;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="favicon.ico" alt="Logo" class="logo">
+        <h1>ACCESO DENEGADO</h1>
+        <p>Por razones de seguridad la página ha sido bloqueada: <span id="blocked-url"></span></p>
+        <p>No tienes permiso de acceso a la página solicitada</p>
+    </div>
+
+    <script>
+        // Obtener el parámetro 'url' de la URL
+        const params = new URLSearchParams(window.location.search);
+        const url = params.get('url');
+
+        // Mostrar la URL en la página si está presente
+        if (url) {
+            document.getElementById('blocked-url').textContent = url;
+        } else {
+            document.getElementById('blocked-url').textContent = '';
+        }
+    </script>
+</body>
+</html>
