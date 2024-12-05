@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WinWeb</title>
+    <style>
+        /* Estilos para la visualización del video */
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            overflow: hidden;
+        }
+
+        #video-element {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var videoElement = document.getElementById('video-element');
+
+            videoElement.addEventListener('ended', function() {
+                window.location.href = 'Pantalla_de_bloqueo.html';
+            });
+
+            videoElement.play();
+        });
+    </script>
+</head>
+<body>
+    <div id="video-container">
+        <video id="video-element" autoplay controls>
+            <source src="WinWeb/Boot/Boot_Windows.mp4" type="video/mp4">
+            Tu navegador no admite la etiqueta de video.
+        </video>
+    </div>
+</body>
+</html>

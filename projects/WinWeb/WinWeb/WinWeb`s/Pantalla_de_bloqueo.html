@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WinWeb</title>
+    <style>
+        body {
+            background-image: url('WinWeb/Fondo/background.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        .lockscreen {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .lockscreen__time {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+            padding: 10px 0;
+        }
+        
+        .lockscreen__message {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+    </style>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.altKey && event.shiftKey) {
+                window.location.href = 'Pantalla_de_inicio_de_Sesion.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="lockscreen">
+        <h1 class="lockscreen__time" id="clock"></h1>
+        <p class="lockscreen__message">Presiona Ctrl+Alt+Mayús para Iniciar Sesion</p>
+    </div>
+
+    <script>
+        function updateClock() {
+            var date = new Date();
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            
+            hours = hours.toString().padStart(2, '0');
+            minutes = minutes.toString().padStart(2, '0');
+            seconds = seconds.toString().padStart(2, '0');
+            
+            var time = hours + ':' + minutes + ':' + seconds;
+            
+            document.getElementById('clock').textContent = time;
+        }
+        
+        setInterval(updateClock, 1000);
+    </script>
+</body>
+</html>

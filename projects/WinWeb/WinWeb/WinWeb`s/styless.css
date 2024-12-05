@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+#battery, #clock {
+    position: fixed;
+    bottom: 0px;
+    right: 1px;
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 14px;
+}
