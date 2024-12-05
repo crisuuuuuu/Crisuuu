@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="Logo de la pagina/logo-flat.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxcheto License Manager</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Fondo/wallpaper.png'); /* Cambia 'fondo.jpg' por la URL de tu imagen de fondo */
+    background-size: cover;
+  }
+  .mensaje {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+</style>
+</head>
+<body>
+<div class="mensaje">
+  <p>Si no eres cliente del servicio por favor entren al siguiente link https://max.maxcheto.es/license (La pagina se autoredireccionara en 30 segundos)</p>
+</div>
+<script>
+  setTimeout(function() {
+    window.location.href = 'login.html'; /* Cambia 'otra_pagina.html' por el nombre de la página a la que deseas redireccionar */
+  }, 30000); // 30 segundos en milisegundos
+</script>
+</body>
+</html>
