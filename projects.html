@@ -6,6 +6,21 @@
     <title>Mis Proyectos</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        /* Estilo para el mensaje flotante */
+        .alert {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f44336;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -20,48 +35,53 @@
     <div class="project">
         <h3>WinWeb</h3>
         <p>Un proyecto donde simulaba que estabas en un sistema. Lo usaba cuando estaba en el cole porque me aburría ChromeOS y quería sentirme que estaba en Windows. No recoge ninguna información, pero es al menos algo para perder el tiempo.</p>
-        <a href="/projects/WinWeb/">Visitar Proyecto</a> | <a href="/download_projects/WinWeb.rar">Descargar</a>
+        <a href="/projects/WinWeb/" onclick="showAlert()">Visitar Proyecto</a> | <a href="/download_projects/WinWeb.rar" onclick="showAlert()">Descargar</a>
         <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
     
     <div class="project">
         <h3>Maxcheto License Manager</h3>
         <p>Un proyecto que iba a usar para vender licencias de IPTV o lo que sea. Por favor, no entréis al enlace porque está borrado y la contraseña y usuario es Maxcheto.</p>
-        <a href="/projects/Maxcheto-License-Manager/">Visitar Proyecto</a> | <a href="/download_projects/Maxcheto-License-Manager.rar">Descargar</a>
+        <a href="/projects/Maxcheto-License-Manager/" onclick="showAlert()">Visitar Proyecto</a> | <a href="/download_projects/Maxcheto-License-Manager.rar" onclick="showAlert()">Descargar</a>
         <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
     
     <div class="project">
         <h3>Extension Maxcheto</h3>
         <p>Un proyecto que hice porque me aburría y porque me aparecían todo tipo de extensiones de control o de MDM, así que también hice una.</p>
-        <a href="/download_projects/Extension_Maxcheto.rar">Descargar (No API)</a> | <a href="/download_projects/Extension_Maxcheto_API.rar">Descargar (API)</a>
+        <a href="/download_projects/Extension_Maxcheto.rar" onclick="showAlert()">Descargar (No API)</a> | <a href="/download_projects/Extension_Maxcheto_API.rar" onclick="showAlert()">Descargar (API)</a>
         <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
     
     <div class="project">
         <h3>ACCESO DENEGADO (Extension API)</h3>
         <p>Esta es la página de bloqueo de la extensión con API, ya que lo hice desde la extensión de Blocksi.</p>
-        <a href="/projects/Access_Deneid/">Visitar Proyecto</a> | <a href="/download_projects/Access_Deneid.rar">Descargar</a>
+        <a href="/projects/Access_Deneid/" onclick="showAlert()">Visitar Proyecto</a> | <a href="/download_projects/Access_Deneid.rar" onclick="showAlert()">Descargar</a>
         <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
     
     <div class="project">
         <h3>GoToWin11.exe</h3>
         <p>Este virus es muy "majara", hecho con WinRAR. Primero empezó como una broma meme que no hacía nada y después le empecé a añadir "magia". El archivo meme no te hace nada en el PC, es inofensivo.</p>
-        <a href="/projects/GoToWin11.exe/">Visitar Proyecto</a> | <a href="/download_projects/GoToWin11.exe">Descargar</a> | <a href="/download_projects/Maxcheto.exe">Descargar (Meme)</a>
+        <a href="/projects/GoToWin11.exe/" onclick="showAlert()">Visitar Proyecto</a> | <a href="/download_projects/GoToWin11 .exe" onclick="showAlert()">Descargar</a> | <a href="/download_projects/Maxcheto.exe" onclick="showAlert()">Descargar (Meme)</a>
+        <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
     
     <div class="project">
         <h3>Teclado</h3>
         <p>Esto lo hice porque la hermana de un amigo quería que su ordenador hiciese "miau" al apretar una tecla.</p>
-        <a href="/download_projects/Teclado.rar">Descargar</a>
+        <a href="/download_projects/Teclado.rar" onclick="showAlert()">Descargar</a>
         <p><strong>Contraseña para descargar:</strong> W1n32@3951@_</p>
     </div>
 </section>
 
+<div class="alert" id="alert">
+    AVISO: A veces los antivirus lo detectan como virus, pero solo son comprimidos hechos a autoejecutable.
+</div>
+
 <footer>
     <h2>Contacto</h2>
- <p>Correo: <a id="correo" href="mailto:win32.H1ml@proton.me">win32.H1ml@proton.me</a></p>
+    <p>Correo: <a id="correo" href="mailto:win32.H1ml@proton.me">win32.H1ml@proton.me</a></p>
     <p>TikTok: <a href="https://www.tiktok.com/@win32wacatac.exe">win32wacatac.exe</a></p>
     <p>Instagram: <a href="https://www.instagram.com/win32wacatac.exe/">win32wacatac.exe</a></p>
     <p>&copy; 2024-2025. Win32 Todos los derechos reservados.</p>
@@ -72,6 +92,14 @@
         event.preventDefault();
         window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=win32.H1ml@proton.me", "_blank");
     });
+
+    function showAlert() {
+        var alertBox = document.getElementById("alert");
+        alertBox.style.display = "block";
+        setTimeout(function() {
+            alertBox.style.display = "none";
+        }, 5000); // El mensaje se oculta después de 5 segundos
+    }
 </script>
 
 </body>
