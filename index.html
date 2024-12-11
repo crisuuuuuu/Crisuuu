@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Win32 - Mis Proyectos</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <h1>Win32 - Mis Proyectos</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="about.html">Sobre mí</a></li>
-        <li><a href="projects.html">Proyectos</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="intro">
-    <h2>Bienvenido a mi página web</h2>
-    <p>Hola, soy Win32. He trabajado en varios proyectos relacionados con la tecnología, desde herramientas de gestión hasta proyectos más avanzados. Haz clic en los enlaces para descubrir más. Y por cierto que algunos proyectos como virus los he hecho con Winrar pero mejor os dejo a vosotros que adivinéis</p>
-  </section>
+<header>
+    <h1>Sobre Mí</h1>
+</header>
 
-  <footer>
-    <p>© 2024 Win32 - Todos los derechos reservados.</p>
-  </footer>
+<nav>
+    <a href="projects.html">Proyectos</a>
+</nav>
+
+<section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>Me gusta toquetear ordenadores y sistemas. Cuando consigo algo o encuentro algo que me ayuda un montón, lo aprovecho. Además, cuando me aburro, hago estos proyectos para no aburrirme.</p>
+</section>
+
+<footer>
+    <h2>Contacto</h2>
+    <p>Correo: <a id="correo" href="mailto:win32.H1ml@proton.me">win32.H1ml@proton.me</a></p>
+    <p>TikTok: <a href="https://www.tiktok.com/@win32wacatac.exe">win32wacatac.exe</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/win32wacatac.exe/">win32wacatac.exe</a></p>
+    <p>&copy; 2024-2025. Win32 Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    document.getElementById("correo").addEventListener("click", function(event) {
+        event.preventDefault();
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=win32.H1ml@proton.me", "_blank");
+    });
+</script>
+
 </body>
 </html>
