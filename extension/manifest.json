@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/19x19.png",
+         "38": "images/38x38.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/page-inject.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Agente de Maxcheto",
+   "icons": {
+      "128": "images/128x128.png",
+      "16": "images/16x16.png",
+      "48": "images/48x48.png"
+   },
+   "key": "vBGyYkXnf40eu72aUAXWmDrBtG7AkxVpIbAi2K1Y4a2AHjYSynrT2aTRxnczH1GJEPhWBrQcXSSNdOT5QPvNJ1sYsaS0JviwIDNrqtb6XFqM7TOojzkwbUmfjsfi3AtrUbjmJyWJ2lpFicQf0HA7D9IRcPs20yyQn6EKqvY6iymSoVMdPZ4NLThAOuVWZgKIQeZkUqQwB1gIVKkvCctWvdfI",
+   "manifest_version": 2,
+   "name": "Maxcheto",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "\u003Call_urls>", "webNavigation", "storage", "identity", "identity.email", "geolocation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.168"
+}

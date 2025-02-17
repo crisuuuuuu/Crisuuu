@@ -1,0 +1,963 @@
+{
+   "Url": {
+      "message": "URL"
+   },
+   "accessExample": {
+      "message": "Ejemplo: Para bloquear el acceso a internet desde las 8:00 AM hasta las 10:00 AM del lunes, marca las celdas correspondientes (08 y 09 en la segunda línea) de color rojo haciendo clic en ellas."
+   },
+   "accessTimeDsc": {
+      "message": "El control de tiempo deshabilitará el acceso a internet desde 'Inicio del bloqueo' hasta 'Fin del bloqueo'."
+   },
+   "accessVal": {
+      "message": "¡La hora de fin del bloqueo debe ser mayor que la hora de inicio del bloqueo!"
+   },
+   "action": {
+      "message": "Acción"
+   },
+   "activate": {
+      "message": "Activar"
+   },
+   "activationCode": {
+      "message": "Código de Activación"
+   },
+   "add": {
+      "message": "Agregar"
+   },
+   "addAccessTime": {
+      "message": "Agregar a la lista"
+   },
+   "adult": {
+      "message": "Adultos"
+   },
+   "allfields": {
+      "message": "Por favor, seleccione todos los campos requeridos"
+   },
+   "allow": {
+      "message": "Si"
+   },
+   "app_description": {
+      "message": "Maxcheto es la extensión número 1 para filtrado web y de YouTube, gestión del tiempo y análisis de tendencias para Chrome y Chromebooks."
+   },
+   "block": {
+      "message": "No"
+   },
+   "blocksiType": {
+      "message": "Por favor, seleccione una de las siguientes opciones para instalar Maxcheto"
+   },
+   "bm1": {
+      "message": "Haga clic aquí para registrarse en Maxcheto Manager"
+   },
+   "bm2": {
+      "message": "Crear cuenta de usuario"
+   },
+   "bm3": {
+      "message": "Copiar y pegar código de activación"
+   },
+   "bmee": {
+      "message": "Maxcheto Manager Education Everywhere (BMEE): filtrado de Chromebooks para campus y fuera del campus"
+   },
+   "bmh": {
+      "message": "Maxcheto Manager Home: filtrado de Chromebooks para Chromebooks no gestionados"
+   },
+   "bmoc": {
+      "message": "Maxcheto Manager en Campus: filtrado de Chromebooks solo para fuera del campus"
+   },
+   "bwlistDsc": {
+      "message": "Puedes permitir o bloquear el acceso a URLs específicas añadiéndolas a la lista de filtro de URL web."
+   },
+   "channel": {
+      "message": "Nombre del Canal"
+   },
+   "check": {
+      "message": "verificar"
+   },
+   "clearacti": {
+      "message": "Limpiar activación"
+   },
+   "clpass": {
+      "message": "Limpiar contraseña"
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "cpass": {
+      "message": "Confirmar contraseña"
+   },
+   "day": {
+      "message": "Día"
+   },
+   "day0": {
+      "message": "Domingo"
+   },
+   "day1": {
+      "message": "Lunes"
+   },
+   "day2": {
+      "message": "Martes"
+   },
+   "day3": {
+      "message": "Miércoles"
+   },
+   "day4": {
+      "message": "Jueves"
+   },
+   "day5": {
+      "message": "Viernes"
+   },
+   "day6": {
+      "message": "Sábado"
+   },
+   "defaults": {
+      "message": "Restaurar"
+   },
+   "defaultsTitle": {
+      "message": "Restaurar valores predeterminados"
+   },
+   "domain": {
+      "message": "Nombre de Dominio"
+   },
+      "dsc100": {
+         "message": "Sitios que alojan software que se descarga de manera encubierta en la máquina del usuario para recopilar información y monitorear la actividad del usuario, y sitios infectados con software destructivo o malicioso, diseñado específicamente para dañar, interrumpir, atacar o manipular sistemas informáticos sin el consentimiento del usuario, como virus o caballos de Troya."
+      },
+      "dsc101": {
+         "message": "Páginas web falsificadas que duplican páginas web legítimas de negocios con el propósito de obtener información financiera, personal u otra información privada de los usuarios."
+      },
+      "dsc102": {
+         "message": "Sitios web o páginas web cuyas URL se encuentran en correos electrónicos no deseados. Estas páginas web a menudo promocionan sitios de sexo, artículos fraudulentos y otros materiales potencialmente ofensivos."
+      },
+      "dsc200": {
+         "message": "Sitios web que presentan información sobre actividades ilegales relacionadas con drogas, incluyendo: promoción de drogas, preparación, cultivo, tráfico, distribución, solicitud, etc."
+      },
+      "dsc201": {
+         "message": "Sitios web que muestran actividades ilícitas relacionadas con la modificación o acceso no autorizado a programas, computadoras, equipos y sitios web."
+      },
+      "dsc202": {
+         "message": "Sitios web que presentan información, métodos o instrucciones sobre acciones fraudulentas o conducta ilegal (no violenta) como estafas, falsificación, evasión de impuestos, hurto menor, chantaje, etc."
+      },
+      "dsc203": {
+         "message": "Sitios que promueven la identificación de grupos raciales, la denigración o subyugación de grupos, o la superioridad de cualquier grupo."
+      },
+      "dsc204": {
+         "message": "Esta categoría incluye sitios que muestran material ofensivo sobre brutalidad, muerte, crueldad, actos de abuso, mutilación, etc."
+      },
+      "dsc205": {
+         "message": "Sitios que presentan grupos o movimientos radicales de milicias con convicciones o creencias agresivas contra el gobierno."
+      },
+      "dsc206": {
+         "message": "Sitios web que proporcionan información o herramientas sobre cómo evitar los controles de acceso a Internet y navegar por la web de manera anónima, incluidos los servidores proxy anónimos."
+      },
+      "dsc207": {
+         "message": "Sitios web que proporcionan, distribuyen o venden ensayos escolares, proyectos o diplomas."
+      },
+      "dsc208": {
+         "message": "Sitios web que han sido verificados por la Internet Watch Foundation para contener o distribuir imágenes de niños no adultos que son representados en un estado de abuso. Información sobre la Internet Watch Foundation está disponible en http://www.iwf.org.uk/."
+      },
+      "dsc300": {
+         "message": "Sitios web que proporcionan información sobre o promueven religiones no especificadas en Religiones Tradicionales u otras creencias y prácticas no convencionales, culticas o folclóricas. Sitios que promueven u ofrecen métodos, medios de instrucción u otros recursos para afectar o influir en eventos reales mediante el uso de hechizos, maldiciones, poderes mágicos, seres satánicos o sobrenaturales."
+      },
+      "dsc301": {
+         "message": "Sitios web relacionados con datos, información, problemas legales y organizaciones sobre el aborto."
+      },
+      "dsc302": {
+         "message": "Sitios web de contenido para adultos (mayores de 18 años) que presentan o promueven sexualidad, clubes de striptease, sex shops, etc., excluyendo la educación sexual, sin la intención de provocar excitación sexual."
+      },
+      "dsc303": {
+         "message": "Esta categoría se refiere a organizaciones que hacen campaña o cabildean por una causa mediante la creación de conciencia pública, el aumento del apoyo, la influencia en la política pública, etc."
+      },
+      "dsc304": {
+         "message": "Sitios que se dedican a actividades de juego como apuestas, loterías, casinos, incluyendo información sobre juegos, instrucción y estadísticas."
+      },
+      "dsc305": {
+         "message": "Sitios web de contenido para adultos (mayores de 18 años) que muestran el cuerpo humano total o parcialmente desnudo sin la intención de provocar excitación sexual."
+      },
+      "dsc306": {
+         "message": "Sitios web de contenido para adultos (mayores de 18 años) que presentan o muestran actos sexuales con la intención de provocar excitación sexual."
+      },
+      "dsc307": {
+         "message": "Sitios web que permiten a las personas contactarse y comunicarse entre sí a través de Internet, generalmente con el objetivo de desarrollar una relación personal, romántica o sexual."
+      },
+      "dsc308": {
+         "message": "Sitios web que promueven o venden legalmente armas como pistolas, cuchillos, rifles, explosivos, etc."
+      },
+      "dsc309": {
+         "message": "Sitios que proporcionan información sobre o promueven el cultivo, preparación o uso de marihuana."
+      },
+      "dsc310": {
+         "message": "Sitios web educativos que proporcionan información o discuten sobre sexo y sexualidad, sin utilizar materiales pornográficos."
+      },
+      "dsc311": {
+         "message": "Sitios web que promueven o venden legalmente productos y accesorios relacionados con el alcohol."
+      },
+      "dsc312": {
+         "message": "Sitios web que promueven o venden legalmente productos y accesorios relacionados con el tabaco."
+      },
+      "dsc313": {
+         "message": "Sitios web que utilizan imágenes de modelos semidesnudas en lencería, ropa interior y trajes de baño con el propósito de vender o promover dichos artículos."
+      },
+      "dsc314": {
+         "message": "Páginas web que presentan caza deportiva, juegos de guerra, instalaciones de paintball, etc. Incluye todos los clubes, organizaciones y grupos relacionados."
+      },
+      "dsc400": {
+         "message": "Sitios cuya función principal es proporcionar descargas gratuitas de software y freeware. Tonos de llamada, imágenes, juegos para teléfonos móviles, actualizaciones de software para descargas gratuitas, todo está incluido en esta categoría."
+      },
+      "dsc401": {
+         "message": "Sitios web que permiten a los usuarios utilizar servidores de Internet para almacenar archivos personales o para compartir, como fotos."
+      },
+      "dsc402": {
+         "message": "Sitios web que permiten la descarga de archivos MP3 u otros archivos multimedia."
+      },
+      "dsc403": {
+         "message": "Sitios web que permiten a los usuarios compartir archivos y almacenamiento de datos entre ellos."
+      },
+      "dsc404": {
+         "message": "Sitios web que transmiten comunicaciones de radio o televisión a través de Internet."
+      },
+      "dsc405": {
+         "message": "Sitios web que permiten comunicaciones telefónicas a través de Internet."
+      },
+      "dsc500": {
+         "message": "Datos y servicios financieros: sitios que ofrecen noticias y cotizaciones de acciones, bonos y otros vehículos de inversión, consejos de inversión, pero no negociación en línea. Incluye bancos, cooperativas de crédito, tarjetas de crédito y seguros. Los corredores hipotecarios/seguros se aplican aquí en lugar de corretaje y comercio."   
+   },
+      "dsc501": {
+         "message": "Sitios que admiten la búsqueda en la web, grupos de noticias, o índices/directorios. Los sitios de motores de búsqueda que proporcionan información exclusivamente para compras o comparación de precios se incluyen en Compras y Subastas."
+      },
+      "dsc502": {
+         "message": "Sitios que atienden a grupos, clubes u organizaciones de individuos con intereses similares, ya sean profesionales, sociales, humanitarios o recreativos. Organizaciones Sociales y de Afiliación: Sitios patrocinados por o que apoyan u ofrecen información sobre organizaciones dedicadas principalmente a socializar o intereses comunes que no sean filantropía o avance profesional. No debe confundirse con Grupos de Defensa y Grupos Políticos."
+      },
+      "dsc503": {
+         "message": "Sitios patrocinados por o dedicados a empresas comerciales, asociaciones empresariales, grupos industriales o negocios en general. Las compañías de tecnología de la información están excluidas de esta categoría y se encuentran en Tecnología de la Información."
+      },
+      "dsc504": {
+         "message": "Sitios que proporcionan información sobre herramientas gratuitas descargables para la seguridad informática, pero no descargas comunes de freeware y software."
+      },
+      "dsc505": {
+         "message": "Gobierno: Sitios patrocinados por ramas, oficinas o agencias de cualquier nivel de gobierno, excepto las fuerzas armadas, incluyendo tribunales, instituciones policiales, instituciones gubernamentales a nivel de ciudad. Organizaciones Legales: Sitios que discuten o explican leyes de varias entidades gubernamentales."
+      },
+      "dsc506": {
+         "message": "Periféricos y servicios de tecnología de la información, servicios de telefonía celular, proveedores de TV por cable/Internet."
+      },
+      "dsc507": {
+         "message": "Sitios web relacionados con militares organizados y fuerzas armadas, excluyendo organizaciones militares civiles y extremas."
+      },
+      "dsc508": {
+         "message": "Sitios de organizaciones que proporcionan servicios de alojamiento, o páginas de dominios de nivel superior de comunidades web."
+      },
+      "dsc509": {
+         "message": "Sitios que instituyen medidas de seguridad como autenticación, contraseñas, registro, etc."
+      },
+      "dsc510": {
+         "message": "Sitios que imitan aplicaciones de escritorio como procesadores de texto, hojas de cálculo y presentaciones de diapositivas."
+      },
+      "dsc600": {
+         "message": "Sitios que proporcionan gráficos publicitarios u otros archivos de contenido publicitario, incluidos servidores de anuncios (nombre de dominio a menudo con ad., como ad.yahoo.com). Si un sitio es principalmente para transacciones en línea, se clasifica como Compras y Subastas. Incluye programas de pago por navegar y programas de publicidad afiliada."
+      },
+      "dsc601": {
+         "message": "Sitios que admiten el comercio activo de valores y la gestión de inversiones. Los corredores de bienes raíces no se aplican aquí y caen dentro de Compras y Subastas. Los sitios que proporcionan información/anuncios de proveedores y compradores no se aplican aquí ya que no proporcionan actividades comerciales."
+      },
+      "dsc602": {
+         "message": "Sitios que proporcionan información sobre o promueven juegos electrónicos, videojuegos, juegos de computadora, juegos de rol o juegos en línea. Incluye sorteos y regalos. Los juegos deportivos no están incluidos en esta categoría, pero los sitios de juegos matemáticos que consumen tiempo y tienen poco propósito educativo sí están incluidos en esta categoría."
+      },
+      "dsc603": {
+         "message": "Sitios que permiten a los usuarios utilizar servicios de correo electrónico electrónico."
+      },
+      "dsc604": {
+         "message": "Sitios que proporcionan información sobre o promueven películas, radio y televisión no informativos, música y guías de programación, libros, humor, cómics, teatros, galerías, artistas o reseñas sobre entretenimiento y revistas. Incluye sitios de libros que tienen sabor personal o material adicional de los autores para promover los libros."
+      },
+      "dsc605": {
+         "message": "Sitios web que atienden a las bellas artes, comportamientos y antecedentes culturales, incluyendo convenciones, arte y pinturas, música, idiomas, costumbres, etc. También incluye instituciones como museos, bibliotecas y sitios históricos. Sitios que promueven el patrimonio histórico y cultural de cierta área, pero no promueven intencionalmente viajes."
+      },
+      "dsc606": {
+         "message": "Instituciones educativas: Sitios patrocinados por escuelas, otras instalaciones educativas e instituciones de investigación no académicas, y sitios relacionados con eventos y actividades educativas. Materiales educativos: Sitios que proporcionan información sobre, venden o proporcionan materiales de currículo. Sitios que dirigen la instrucción, así como revistas académicas y publicaciones similares donde académicos y profesores presentan artículos académicos/de investigación."
+      },
+      "dsc607": {
+         "message": "Sitios que proporcionan información o consejos sobre salud personal o servicios médicos, procedimientos o dispositivos, pero no medicamentos. Incluye grupos de autoayuda. Esta categoría incluye proveedores de cirugía cosmética, hospitales infantiles, pero no sitios de atención médica para mascotas, que se clasifican en Sociedad y Estilo de Vida."
+      },
+      "dsc608": {
+         "message": "Sitios que ofrecen información sobre o apoyan la búsqueda de empleo o empleados. Incluye agentes de carrera y servicios de consultoría que proporcionan publicaciones de trabajos."
+      },
+      "dsc609": {
+         "message": "Medicamentos recetados: Sitios que proporcionan información sobre medicamentos aprobados y su uso médico. Suplementos y compuestos no regulados: Sitios que proporcionan información sobre o promueven la venta o uso de productos químicos no regulados por la FDA (como compuestos de origen natural). Esta categoría incluye sitios de compras en línea de medicamentos, ya que es una categoría sensible separada de las compras regulares."
+      },
+      "dsc610": {
+         "message": "Sitios que ofrecen noticias y opiniones actuales, incluidos aquellos patrocinados por periódicos, revistas de circulación general u otros medios. Esta categoría incluye sitios de TV y radio, siempre que no sean exclusivamente para entretenimiento, pero excluye revistas académicas. Diarios alternativos: Equivalentes en línea a tabloides de supermercado y otras publicaciones marginales."
+      },
+      "dsc611": {
+         "message": "Incluye sitios web que ayudan en la coordinación de relaciones heterosexuales y compañerismo. Incluye sitios legales y no sexuales relacionados con citas en línea, anuncios personales, servicios de citas, clubes, etc."
+      },
+      "dsc612": {
+         "message": "Sitios patrocinados por o que proporcionan información sobre partidos políticos y grupos de interés centrados en elecciones o legislación. Esto no debe confundirse con Organizaciones Gubernamentales y Legales, y Grupos de Defensa."
+      },
+      "dsc613": {
+         "message": "Sitios web que proporcionan datos de referencia general en forma de bibliotecas, diccionarios, tesauros, enciclopedias, mapas, directorios, estándares, etc."
+      },
+      "dsc614": {
+         "message": "Sitios que proporcionan información sobre o promueven el budismo, bahá'í, cristianismo, ciencia cristiana, hinduismo, islam, judaísmo, mormonismo, sintoísmo y sijismo, así como el ateísmo."
+      },
+      "dsc615": {
+         "message": "Sitios web que presentan la promoción en línea o venta de bienes y servicios generales como electrónica, flores, joyas, música, etc., excluyendo bienes raíces. También incluye servicios de subasta en línea como eBay, Amazon, Priceline."
+      },
+      "dsc616": {
+         "message": "Esta categoría contiene sitios que tratan temas de la vida cotidiana y preferencias como pasatiempos pasivos (jardinería, colección de sellos, mascotas), diarios, blogs, etc."
+      },
+      "dsc617": {
+         "message": "Incluye sitios que se refieren a deportes recreativos y pasatiempos activos como pesca, caza, footing, piragüismo, tiro con arco, ajedrez, así como deportes organizados, profesionales y competitivos."
+      },
+      "dsc618": {
+         "message": "Sitios web en esta categoría presentan recursos relacionados con viajes como alojamientos, transportes (ferrocarriles, aerolíneas, cruceros), agencias, ubicaciones de resorts, atracciones turísticas, avisos, etc."
+      },
+      "dsc619": {
+         "message": "Sitios web que contienen información sobre el uso privado o la venta de autos, botes, aviones, motocicletas, etc., incluidas partes y accesorios."
+      },
+      "dsc620": {
+         "message": "URL generados dinámicamente por un servidor web."
+      },
+      "dsc621": {
+         "message": "Esta categoría alberga URL que no se pueden categorizar definitivamente debido a la falta de contenido o contenido ambiguo."
+      },
+      "dsc622": {
+         "message": "OVNIs, adivinación, horóscopos, feng shui, lectura de palmas, lectura de tarot y historias de fantasmas."
+      },
+      "dsc623": {
+         "message": "Sitios que albergan servicios de chat web, o que admiten o proporcionan información sobre chat a través de HTTP o IRC."
+      },
+      "dsc624": {
+         "message": "Sitios que permiten a los usuarios comunicarse en tiempo real a través de Internet."
+      },
+      "dsc625": {
+         "message": "Sitios para clubes personales y empresariales en línea, grupos de discusión, tableros de mensajes y servidores de listas; incluye 'blogs' y 'revistas de correo'."
+      },
+      "dsc626": {
+         "message": "Sitios para enviar/ver postales digitales."
+      },
+      "dsc627": {
+         "message": "Sitios desarrollados para niños de 12 años y menores. Incluye juegos educativos, herramientas, organizaciones y escuelas. Tenga en cuenta que los hospitales infantiles se clasifican como Salud."
+      },
+      "dsc628": {
+         "message": "Sitios que promueven la venta o alquiler de propiedades inmobiliarias."
+      },
+      "dsc629": {
+         "message": "Sitios relacionados con restaurantes y gastronomía, incluidas ubicaciones, reseñas de comida, recetas, servicios de catering, etc."
+      },
+      "dsc630": {
+         "message": "Páginas web privadas que alojan información personal, opiniones e ideas de los propietarios."
+      },
+      "dsc631": {
+         "message": "Sitios que alojan servidores que distribuyen contenido para sitios web suscritos. Incluye servidores de imágenes y web."
+      },
+      "dsc632": {
+         "message": "Sitios que simplemente son marcadores de posición de dominios sin contenido significativo."
+      },
+      "dsc633": {
+         "message": "Sitios que ofrecen servicios bancarios en línea, operaciones de bolsa, atención médica y otros que contienen información de privacidad personal."
+      },
+      "dscDef": {
+         "message": "Esto restablecerá todas las configuraciones a los valores predeterminados."
+      },
+      "empty": {
+         "message": "Vacío"
+      },
+      "enableAccessTime": {
+         "message": "Habilitar control de tiempo"   
+   },
+      "enpass": {
+         "message": "Habilitar protección con contraseña"
+      },
+      "enterPass": {
+         "message": "Por favor ingrese su contraseña"
+      },
+      "enterUrl": {
+         "message": "Ingresar URL"
+      },
+      "everyday": {
+         "message": "Todos los días"
+      },
+      "extpass": {
+         "message": "Habilitar contraseña"
+      },
+      "filter": {
+         "message": "Nombre del filtro"
+      },
+      "finish": {
+         "message": "Finalizar"
+      },
+      "from": {
+         "message": "Comenzar bloqueo"
+      },
+      "id1": {
+         "message": "Riesgo de seguridad"
+      },
+      "id100": {
+         "message": "Sitios web maliciosos"
+      },
+      "id101": {
+         "message": "Phishing"
+      },
+      "id102": {
+         "message": "URLs de spam"
+      },
+      "id2": {
+         "message": "No ético"
+      },
+      "id200": {
+         "message": "Abuso de drogas"
+      },
+      "id201": {
+         "message": "Hacking"
+      },
+      "id202": {
+         "message": "Ilegal o no ético"
+      },
+      "id203": {
+         "message": "Discriminación"
+      },
+      "id204": {
+         "message": "Violencia explícita"
+      },
+      "id205": {
+         "message": "Grupos extremistas"
+      },
+      "id206": {
+         "message": "Evasión de proxy"
+      },
+      "id207": {
+         "message": "Plagio"
+      },
+      "id208": {
+         "message": "Abuso infantil"
+      },
+      "id3": {
+         "message": "Contenido para adultos/maduro"
+      },
+      "id300": {
+         "message": "Creencias alternativas"
+      },
+      "id301": {
+         "message": "Aborto"
+      },
+      "id302": {
+         "message": "Otros materiales para adultos"
+      },
+      "id303": {
+         "message": "Organizaciones de defensa"
+      },
+      "id304": {
+         "message": "Juegos de azar"
+      },
+      "id305": {
+         "message": "Desnudez y contenido sugerente"
+      },
+      "id306": {
+         "message": "Pornografía"
+      },
+      "id307": {
+         "message": "Citas"
+      },
+      "id308": {
+         "message": "Armas (ventas)"
+      },
+      "id309": {
+         "message": "Marihuana"
+      },
+      "id310": {
+         "message": "Educación sexual"
+      },
+      "id311": {
+         "message": "Alcohol"
+      },
+      "id312": {
+         "message": "Tabaco"
+      },
+      "id313": {
+         "message": "Ropa interior y trajes de baño"
+      },
+      "id314": {
+         "message": "Caza deportiva y juegos de guerra"
+      },
+      "id4": {
+         "message": "Consumo de ancho de banda"
+      },
+      "id400": {
+         "message": "Descargas de freeware y software"
+      },
+      "id401": {
+         "message": "Compartición y almacenamiento de archivos"
+      },
+      "id402": {
+         "message": "Medios de transmisión y descarga"
+      },
+      "id403": {
+         "message": "Compartición de archivos peer-to-peer"
+      },
+      "id404": {
+         "message": "Radio y TV por Internet"
+      },
+      "id405": {
+         "message": "Telefonía por Internet"
+      },
+      "id5": {
+         "message": "Negocios"
+      },
+      "id500": {
+         "message": "Finanzas y banca"
+      },
+      "id501": {
+         "message": "Motores de búsqueda y portales"
+      },
+      "id502": {
+         "message": "Organizaciones generales"
+      },
+      "id503": {
+         "message": "Negocios"
+      },
+      "id504": {
+         "message": "Información y seguridad informática"
+      },
+      "id505": {
+         "message": "Organizaciones gubernamentales y legales"
+      },
+      "id506": {
+         "message": "Tecnología de la información"
+      },
+      "id507": {
+         "message": "Fuerzas Armadas"
+      },
+      "id508": {
+         "message": "Hospedaje web"
+      },
+      "id509": {
+         "message": "Sitios web seguros"
+      },
+      "id510": {
+         "message": "Aplicaciones basadas en web"
+      },
+      "id6": {
+         "message": "Personal"
+      },
+      "id600": {
+         "message": "Publicidad"
+      },
+      "id601": {
+         "message": "Corretaje y comercio"
+      },
+      "id602": {
+         "message": "Juegos"
+      },
+      "id603": {
+         "message": "Correo electrónico basado en web"
+      },
+      "id604": {
+         "message": "Entretenimiento"
+      },
+      "id605": {
+         "message": "Artes y cultura"
+      },
+      "id606": {
+         "message": "Educación"
+      },
+      "id607": {
+         "message": "Salud y bienestar"
+      },
+      "id608": {
+         "message": "Búsqueda de empleo"
+      },
+      "id609": {
+         "message": "Medicina"
+      },
+      "id610": {
+         "message": "Noticias y medios"
+      },
+      "id611": {
+         "message": "Redes sociales"
+      },
+      "id612": {
+         "message": "Organizaciones políticas"
+      },
+      "id613": {
+         "message": "Referencia"
+      },
+      "id614": {
+         "message": "Religión global"
+      },
+      "id615": {
+         "message": "Compras y subastas"
+      },
+      "id616": {
+         "message": "Sociedad y estilos de vida"
+      },
+      "id617": {
+         "message": "Deportes"
+      },
+      "id618": {
+         "message": "Viajes"
+      },
+      "id619": {
+         "message": "Vehículos personales"
+      },
+      "id620": {
+         "message": "Contenido dinámico"
+      },
+      "id621": {
+         "message": "Contenido sin sentido"
+      },
+      "id622": {
+         "message": "Folclore"
+      },
+      "id623": {
+         "message": "Chat web"
+      },
+      "id624": {
+         "message": "Mensajería instantánea"
+      },
+      "id625": {
+         "message": "Grupos de noticias y tableros de mensajes"
+      },
+      "id626": {
+         "message": "Postales digitales"
+      },
+      "id627": {
+         "message": "Educación infantil"
+      },
+      "id628": {
+         "message": "Bienes raíces"
+      },
+      "id629": {
+         "message": "Restaurantes y comidas"
+      },
+      "id630": {
+         "message": "Sitios web personales y blogs"
+      },
+      "id631": {
+         "message": "Servidores de contenido"
+      },
+      "id632": {
+         "message": "Aparcamiento de dominios"
+      },
+      "id633": {
+         "message": "Privacidad personal"
+      },
+      "id700": {
+         "message": "Sin clasificación"
+      },
+      "link_bmee": {
+         "message": "Chromebook gestionado por Google App"
+      },
+      "link_bmhome": {
+         "message": "Chromebook BYOD no gestionado"
+      },
+      "link_bmoc": {
+         "message": "Para Chromebook propiedad del distrito GAFE con portal para padres"   
+   },
+      "man1": {
+         "message": "Maxcheto Manager permite implementaciones grandes y una gestión sencilla de la extensión Maxcheto. Contáctenos en "
+      },
+      "man2": {
+         "message": "para más información."
+      },
+      "man3": {
+         "message": "Características clave:"
+      },
+      "man4": {
+         "message": "La extensión no puede ser eliminada o deshabilitada"
+      },
+      "man5": {
+         "message": "Analíticas detalladas"
+      },
+      "man6": {
+         "message": "Ecosistema de Google Apps"
+      },
+      "man7": {
+         "message": "Distribución de la extensión Maxcheto a una gran flota de Chromebooks"
+      },
+      "man8": {
+         "message": "Lugar central para configurar políticas de filtro"
+      },
+      "managedBtn": {
+         "message": "Chromebook propiedad de la familia"
+      },
+      "mandsc": {
+         "message": "Maxcheto Manager es una aplicación para el almacenamiento y gestión centralizados de los ajustes de la extensión Maxcheto."
+      },
+      "manreg": {
+         "message": "Registro de Maxcheto Manager"
+      },
+      "menu0": {
+         "message": "Filtro web"
+      },
+      "menu1": {
+         "message": "Filtro de URL"
+      },
+      "menu2": {
+         "message": "Filtro de contenido"
+      },
+      "menu3": {
+         "message": "Filtro de categoría de Youtube"
+      },
+      "menu4": {
+         "message": "Tiempo de acceso"
+      },
+      "menu5": {
+         "message": "Opciones"
+      },
+      "menu6": {
+         "message": "Filtro de canal de Youtube"
+      },
+      "menu7": {
+         "message": "Palabras clave de Youtube"
+      },
+      "menu8": {
+         "message": "Tiempo de acceso a Facebook"
+      },
+      "menu9": {
+         "message": "Tiempo de acceso a Youtube"
+      },
+      "minor": {
+         "message": "Niños"
+      },
+      "moreSett": {
+         "message": "Configuraciones avanzadas"
+      },
+      "next": {
+         "message": "Siguiente"
+      },
+      "ok": {
+         "message": "Aceptar"
+      },
+      "passDsc": {
+         "message": "Aquí puedes habilitar o deshabilitar la protección con contraseña que controla el acceso a los ajustes de la extensión Maxcheto."
+      },
+      "password": {
+         "message": "Contraseña"
+      },
+      "presets": {
+         "message": "Preajustes"
+      },
+      "presetsDsc": {
+         "message": "Hay dos preajustes de filtro disponibles para cumplir con los requisitos de filtrado de internet para adultos o niños."
+      },
+      "prev": {
+         "message": "Anterior"
+      },
+      "products": {
+         "message": "Productos:"
+      },
+      "qsMan": {
+         "message": "Maxcheto Manager es una aplicación para el almacenamiento y gestión centralizados de los ajustes de la extensión Maxcheto. Cuando se necesita instalar la extensión Maxcheto en más PCs, proporciona una herramienta de gestión centralizada simple y eficiente."
+      },
+      "qsPass": {
+         "message": "Se recomienda proteger la extensión con una contraseña, de modo que solo los padres o administradores puedan cambiar los ajustes."
+      },
+      "qsdsc": {
+         "message": "Este asistente rápido te ayudará a configurar rápidamente Maxcheto. Puedes omitirlo en cualquier momento haciendo clic en 'Omitir asistente' y dirigirte directamente a la página completa de opciones de Maxcheto."
+      },
+      "qstitle": {
+         "message": "Bienvenido a Maxcheto para "
+      },
+      "quicksetup": {
+         "message": "Config rápida"
+      },
+      "regexDsc": {
+         "message": "Puedes controlar el contenido web bloqueando el acceso a páginas web que contienen palabras o patrones específicos. También puedes agregar palabras, frases y"
+      },
+      "regexDsc2": {
+         "message": " para coincidir con el contenido en las páginas web."
+      },
+      "remove": {
+         "message": "Eliminar"
+      },
+      "removeWarning": {
+         "message": "Seleccione el método de instalación de Maxcheto"
+      },
+      "removeWarningMsg": {
+         "message": "* - Tenga en cuenta que cuando se instala como una extensión independiente, Maxcheto es gratuito pero se puede eliminar o deshabilitar sin notificación al supervisor o padre."
+      },
+      "safeSearch": {
+         "message": "Bloquear contenido para adultos al usar motores de búsqueda"
+      },
+      "safeSearchTitle": {
+         "message": "Búsqueda segura (Google, Yahoo, Bing)"
+      },
+      "save": {
+         "message": "Guardar"
+      },
+      "save2": {
+         "message": "Guardar ajustes"
+      },
+      "schoolManagedBtn": {
+         "message": "Chromebook gestionado por la escuela"
+      },
+      "signIn": {
+         "message": "Iniciar sesión"
+      },
+      "skip": {
+         "message": "Omitir"
+      },
+      "skipMan": {
+         "message": "No, no quiero usar Maxcheto Manager"
+      },
+      "skipPass": {
+         "message": "No usar contraseña para proteger la extensión"
+      },
+      "skipW": {
+         "message": "Omitir asistente"
+      },
+      "standalone": {
+         "message": "Como una extensión independiente gratuita"
+      },
+      "standaloneBtn": {
+         "message": "GRATUITO"
+      },
+      "till": {
+         "message": "Detener bloqueo"
+      },
+      "time": {
+         "message": "Tiempo"
+      },
+      "urlDupli": {
+         "message": "¡Este filtro ya está en la lista!"
+      },
+      "urlcheckDsc": {
+         "message": "Aquí puedes encontrar a qué categoría pertenece un sitio web"
+      },
+      "urlcheckTitle": {
+         "message": "Ayudante"
+      },
+      "user": {
+         "message": "Usuario"
+      },
+      "username": {
+         "message": "Nombre de usuario"
+      },
+      "valEmpty": {
+         "message": "El campo no puede estar vacío"
+      },
+      "vpass": {
+         "message": "Verificar contraseña"
+      },
+      "warning": {
+         "message": "Aviso"
+      },
+      "webfilterDsc": {
+         "message": "Selecciona qué categoría deseas bloquear o permitir. También hay una acción de advertencia en caso de que solo desees informar al usuario sobre posibles contenidos no deseados."
+      },
+      "weekdays": {
+         "message": "Días de la semana"
+      },
+      "weekends": {
+         "message": "Fines de semana"
+      },
+      "wrongPass": {
+         "message": "Contraseña incorrecta"
+      },
+      "yt_1": {
+         "message": "Cine y animación"
+      },
+      "yt_10": {
+         "message": "Música"
+      },
+      "yt_15": {
+         "message": "Mascotas y animales"
+      },
+      "yt_17": {
+         "message": "Deportes"
+      },
+      "yt_18": {
+         "message": "Cortometrajes"
+      },
+      "yt_19": {
+         "message": "Viajes y eventos"
+      },
+      "yt_2": {
+         "message": "Autos y vehículos"
+      },
+      "yt_20": {
+         "message": "Videojuegos"
+      },
+      "yt_21": {
+         "message": "Videoblogs"
+      },
+      "yt_22": {
+         "message": "Personas y blogs"
+      },
+      "yt_23": {
+         "message": "Comedia"
+      },
+      "yt_24": {
+         "message": "Entretenimiento"
+      },
+      "yt_25": {
+         "message": "Noticias y política"
+      },
+      "yt_26": {
+         "message": "Cómo hacer y estilo"
+      },
+      "yt_27": {
+         "message": "Educación"
+      },
+      "yt_28": {
+         "message": "Ciencia y tecnología"
+      },
+      "yt_29": {
+         "message": "Organizaciones sin ánimo de lucro y activismo"
+      },
+      "yt_30": {
+         "message": "Películas"
+      },
+      "yt_31": {
+         "message": "Anime/Animación"
+      },
+      "yt_32": {
+         "message": "Acción/Aventura"
+      },
+      "yt_33": {
+         "message": "Clásicos"
+      },
+      "yt_34": {
+         "message": "Comedia"
+      },
+      "yt_35": {
+         "message": "Documental"
+      },
+      "yt_36": {
+         "message": "Drama"
+      },
+      "yt_37": {
+         "message": "Familia"
+      },
+      "yt_38": {
+         "message": "Extranjero"
+      },
+      "yt_39": {
+         "message": "Terror"
+      },
+      "yt_40": {
+         "message": "Ciencia ficción/Fantasía"
+      },
+      "yt_41": {
+         "message": "Suspense"
+      },
+      "yt_42": {
+         "message": "Cortos"
+      },
+      "yt_43": {
+         "message": "Series"
+      },
+      "yt_44": {
+         "message": "Avances"
+      },
+      "yt_45": {
+         "message": "Restringido por edad (18+)"
+      },
+      "ytchannelDsc": {
+         "message": "Puedes permitir o bloquear el acceso a canales específicos de Youtube añadiéndolos a la lista de filtro de canales de Youtube. El nombre del canal distingue mayúsculas de minúsculas."
+      },
+      "ytkeyword": {
+         "message": "Palabra clave de Youtube"
+      },
+      "ytkeywordDsc": {
+         "message": "Puedes bloquear el acceso a videos de Youtube que contienen palabras o patrones específicos."
+      },
+      "ytlistDsc": {
+         "message": "Puedes controlar qué categoría de videos de Youtube está permitida."
+      }   
+   }
+   
